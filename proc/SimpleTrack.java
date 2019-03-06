@@ -38,14 +38,14 @@ public class SimpleTrack {
       // print the screen
       for(int i=0; i < 100; i++) {
         if(i == pos) {
-          System.out.print(RED + "V");          
+          System.out.print(GREEN + "O");          
         }
         else {
           System.out.print(" ");
         }
       }
       System.out.print(RESET + "\n");
-      sleep(30);
+      sleep(10);
     }
-  }
+  
 }
